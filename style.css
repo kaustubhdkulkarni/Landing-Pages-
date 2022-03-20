@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(background.png);
+}
+
+.logo {
+    margin-top: 26px;
+    margin-left: 39px;
+}
+
+.logo img {
+    height: 72px;
+}
+
+.main {
+    display: flex;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    text-decoration: none;
+    margin: 27px 0 0 21px;
+    padding: 2px 2px 2px 2px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navbar ul li:hover {
+    text-decoration: underline;
+}
+
+.cart {
+    margin: 25px 0 0 40%;
+    cursor: pointer;
+}
+
+.cart img {
+    height: 75px;
+    cursor: pointer;
+}
+
+.imgbox {
+    position: relative;
+}
+
+.imgbox img {
+    margin-top: -1rem;
+    height: 547px;
+    margin-left: 43rem;
+}
+
+.btn {
+    color: black;
+    position: absolute;
+    margin: -72px 0 5px 50%;
+}
+
+.content {
+    margin: 110px 0px 0 179px;
+    position: absolute;
+}
+
+.content h1 {
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #232d60;
+}
+
+.content a {
+    display: inline-block;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: white;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 1.5);
+}
+
+.content p {
+    margin: 0 0 0 px;
+    font-size: 15px;
+}
+
+.arrow img {
+    height: 32px;
+    position: absolute;
+    margin: -196px 0 117px 313px
+}
+
+.secarrow img {
+    height: 32px;
+    position: absolute;
+    margin: -196px 0 0 255px;
+}
